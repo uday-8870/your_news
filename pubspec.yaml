@@ -1,0 +1,19 @@
+
+name: way2news_clone
+description: A Way2News style app using Flutter and Flask
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  provider: ^6.1.5
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
